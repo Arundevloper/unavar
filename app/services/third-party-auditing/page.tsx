@@ -226,25 +226,14 @@ const page = (props: Props) => {
                   <td className="border px-4 py-2 text-center">&gt;50,000</td>
                   <td className="border px-4 py-2 text-center">1.5</td>
                 </tr>
+                <tr>
+                  <td className="text-center py-2 font-semibold" colSpan={2}> **These are ON-SITE audit man-days prescribed and do not inculde reporting time </td>
+                </tr>
               </tbody>
             </table>
           </div>
         </div>
         <div className="flex flex-col p-10">
-          <p className="text-black font-bold text-3xl">
-            What is TPA and how it is useful?
-          </p>
-          <p className="text-black font-md text-wrap p-3 text-xl">
-            TPA, or Third Party Audit, is an evaluation process carried out by
-            an independent organization or body that is officially recognized
-            for its competence and authority in assessing compliance with
-            relevant standards and regulations. These recognized bodies
-            typically have accreditation from regulatory agencies or industry
-            associations. The purpose of TPA is to provide an impartial
-            assessment of a food business&APOSs compliance with food safety and
-            quality standards, offering assurance to consumers and regulatory
-            authorities alike.
-          </p>
           <div className="flex justify-center my-10 flex-wrap">
             <Image
               src="/images/tpa/First .jpg"
