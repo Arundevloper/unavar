@@ -19,27 +19,32 @@ const page = (props: Props) => {
       {/* ------- */}
       <div className="flex flex-col justify-center align-middle p-2 md:p-20">
         <div className="flex flex-col p-10">
-          <p className="text-black font-regular text-wrap text-lg p-3">
-            We at UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED is
-            committed to provide Hygiene Rating Certification in Impartial
-            independent and value added manner for the client and meeting the
-            requirements of accreditation body. We shall provide the
-            certification services through competent personnel and improve their
-            competency by training and timely evaluation. UNAVAR FOOD INSPECTION
-            AND CERTIFICATION PRIVATE LIMITED strives towards objectives and
-            believes in continual improvement in the certification activities
-            through reviewing and strong feedback systems from clients, auditors
-            certification staff and other stake holders.
+          <a className="text-black font-bold text-xl">
+            QUALITY POLICY STATEMENT
+          </a>
+          <p className="text-black font-normal text-md text-wrap text-md p-3">
+            We at UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED, is
+            committed to carry out inspection services in Impartial, independent
+            and value added manner for the client and meeting the requirements
+            of accreditation body international standards . We shall provide the
+            inspection services through competent personnel and improve their
+            competency by training and timely evaluation.
             <br></br>
             <br></br>
-            UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED ensures
+            UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED, strives
+            towards objectives and believes in continual improvement in the
+            certification activities through reviewing and strong feedback
+            systems from clients, auditors certification staff and other stake
+            holders.<br></br>
+            <br></br>
+            UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED, ensures
             that its services are available to all its clients and these
             services are not based under financial or any other consideration.
+            <br></br> <br></br>
             UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED ensures
             that all its procedures/guidelines operate in a non-discriminatory
             manner.
-            <br></br>
-            <br></br>
+            <br></br> <br></br>
             UNAVAR FOOD INSPECTION AND CERTIFICATION PRIVATE LIMITED, ensures
             that impartiality policy and confidentiality policy is communicated
             from Top management till all staffs, stakeholders and clients. Also
@@ -48,6 +53,7 @@ const page = (props: Props) => {
             of inspection activities.
           </p>
         </div>
+
         <div className="p-10">
           <a className="text-black text-xl font-bold">OBJECTIVES:</a>
           <ol className="list-decimal px-8 py-4 font-normal text-md">
